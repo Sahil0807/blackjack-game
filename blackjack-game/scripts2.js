@@ -159,6 +159,7 @@ function stand() {
             message = "Player wins!"
             hasWon = true
             hasLost = false
+            hello()
         }
         messageEl.textContent = message
     }
