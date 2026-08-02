@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>Blackjack</h1>
+        <p id="message"> Want to play a round? </p> 
+        <input type="number" min="1" placeholder="Place your bet." id="betinput">
+        <button id="bet" onclick="bet()"> Bet </button>
+        <div id="game">
+            <div id="player">
+                <p class="heads">Player:</p>
+                <p id="pcards">Cards: </p>
+                <p id="psum">Sum: </p>
+            </div>
+            <div id="dealer">
+                <p class="heads">Dealer:</p>
+                <p id="dcards">Cards: </p>
+                <p id="dsum">Sum: </p>
+            </div>
+        </div>
+        <button id="startgamebtn" onclick="startGame()">START GAME</button>
+        <br>
+        <button id="hitbtn" onclick="hit()">HIT</button>
+        <button id="standbtn" onclick="stand()">STAND</button>
+        <br>
+        <button id="newgamebtn" onclick="newGame()">NEW GAME</button>
+        <p id="player-el"></p>
+        <script src="./scripts2.js"></script>
+    </body>
+</html>

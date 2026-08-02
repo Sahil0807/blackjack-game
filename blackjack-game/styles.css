@@ -1,0 +1,95 @@
+body {
+    margin: 20px 0px;
+    background-image: url("./images/table.png");
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1 {
+    color: goldenrod;
+}
+
+#message  {
+    font-style: italic;
+
+}
+
+button {
+    color: #016f32;
+    background-color: goldenrod;
+    border:none ;
+    padding:5px 0;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+#betinput {
+    color: #016f32;
+    background-color: goldenrod;
+    border:none ;
+    padding:5px 0;
+    width: 104px;
+    text-align: center;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input:focus, button:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: #016f32;
+    text-align: center;
+}
+
+#startgamebtn, #newgamebtn {
+    width: 154px;
+    
+}
+
+#hitbtn, #standbtn {
+    width: 75px;
+    color: #016f32;
+}
+
+#game {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    /* border: 1px solid white;  */
+    
+}
+
+
+.heads {
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    /* border: 1px solid blue; */
+}
+
+#player, #dealer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+#bet {
+    width: 50px;
+}
